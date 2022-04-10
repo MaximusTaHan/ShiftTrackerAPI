@@ -8,7 +8,7 @@ namespace ShiftTracker.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=localhost;Database=ShiftTrackeDB;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer(@"Server=localhost;Database=ShiftTrackerDB;Trusted_Connection=True;");
         }
     }
 }

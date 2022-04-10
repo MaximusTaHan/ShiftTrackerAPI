@@ -12,8 +12,8 @@ using ShiftTracker.Models;
 namespace ShiftTracker.Migrations
 {
     [DbContext(typeof(ShiftTrackerContext))]
-    [Migration("20220407083554_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20220410095349_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
